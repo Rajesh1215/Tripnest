@@ -1,0 +1,315 @@
+.marginleft{
+    margin-left: 40vw;
+    width: 5vw;
+}
+/* styles.css */
+
+/* Apply styles to the navigation links */
+.mainnav.nav-link {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(0, 106, 255); /* Initial color */
+    text-decoration: none; /* Remove underline by default */
+    transition: color 0.2s, font-size 0.2s; /* Add transitions for smooth hover effect */
+  }
+  
+  /* Add styles for hover state */
+  .mainnav.nav-link:hover {
+    color: rgb(50, 62, 142); /* Change color on hover */
+  }
+  
+  /* Add styles for active/selected state */
+  .mainnav.nav-link.active {
+    color: rgb(50, 62, 142); /* Change color when the link is active/selected */
+    font-size: 20px; /* Increase font size when active/selected */
+    font-weight: bold;
+
+
+  }
+
+  /* Add styles to make the icon blue and fully covered */
+.profile-icon {
+    color: rgb(0, 106, 255); /* Set the color to blue */
+    width: 25px; /* Set the width of the icon */
+    height: 25px; /* Set the height of the icon */
+  }
+  /* HomePage.css or HomePage.scss */
+.custom-carousel {
+  height: 50vh;
+  background: 'lightgray' 
+}
+.img-container {
+  height: 50vh;
+}
+
+.home-card:hover {
+  border: 5px solid lightblue; /* Add a light blue border on hover */
+  transition: border 0.2s ease; /* Smooth transition effect */
+}
+.home-card {
+  border: 0; /* Add a light blue border on hover */
+}
+.home-card2:hover {
+  border: 5px solid lightblue; /* Add a light blue border on hover */
+  transition: border 0.2s ease; /* Smooth transition effect */
+}
+.home-card2 {
+  border: 1; /* Add a light blue border on hover */
+}
+/* Custom CSS */
+.bullet-text {
+  list-style: disc; /* Add a bullet point (disc) before the text */
+}
+
+
+/* Custom CSS for navigation tabs */
+.naviii-tabs {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  
+}
+
+.naviii-tabs li {
+  margin-right: 10px;
+}
+
+.naviii-tabs button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 3px 20px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+  border-radius: 20px; /* Add rounded corners */
+  font-size:small;
+}
+
+.naviii-tabs button.active {
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 20px; /* Add rounded corners */
+}
+.about-des{
+   font-family: 'Montserrat';
+   }
+.about-motbe{
+    font-family: 'Roboto';
+}
+
+.feature-bor{
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;}
+
+  .profile-image img {
+    border-radius: 50%;
+    height: 20vh;
+  }
+
+  /* ProfilePage.css */
+.personal-details {
+  font-size: 16px; /* Adjust the font size as needed */
+}
+
+.profile-name {
+  font-size: 24px; /* Adjust the font size for the name as needed */
+  margin-top: 0; /* Remove top margin for the name */
+  color: white;
+}
+
+.profile-info {
+  margin-bottom: 8px; /* Add some spacing between info lines */
+  color: rgb(255, 255, 255);
+}
+.profile{
+  background-color: rgba(45, 45, 63, 0.532);
+  border-top-left-radius: 150px; /* Rounded top-left corner */
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 150px; /* Rounded bottom-left corner */
+  border-bottom-right-radius: 150px; /* Rounded top-right corner */
+}
+.profile:hover{
+
+  border-top-left-radius: 150px; /* Rounded top-left corner */
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 150px; /* Rounded bottom-left corner */
+  border-bottom-right-radius: 150px; /* Rounded top-right corner */
+  border: 1px solid grey; /* Add a light blue border on hover */
+  transition: border 0.2s ease;
+  box-shadow: grey;
+}
+.set-icon{
+    width: 40px; /* Set the width of the icon */
+    height: 25px; /* Set the height of the icon */
+  
+}
+.pla_det_des{
+  color: blue;
+  background-color: transparent;
+  border: 0;
+  height: 5px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-overlay {
+  position: absolute;
+  bottom:  2% ;
+  left: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+
+}
+
+.image-text {
+  text-align: left;
+  color: white; /* Set the text color as needed */
+  padding: 10px;
+}
+.comments {
+  margin-top: 20px;
+}
+
+.comment-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.comment {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+.comment-body{
+  text-indent: 15px;
+  padding: 12px;
+}
+.comment-create{
+  font-size:smaller;
+}
+
+/* CSS */
+.trip-details {
+  text-align: center; /* Center-align all content */
+  padding: 20px; /* Add padding to all sides */
+}
+
+.trip-title {
+  font-size: 24px; /* Adjust the font size for the title */
+  margin: 10px 0; /* Add some space above and below the title */
+}
+
+
+
+/* Additional styling as needed */
+/* Add this CSS to style the arrow bullets */
+
+/* Style for each place box */
+.place-box {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  width: max-content;
+}
+/* TripDetails.css */
+.place-box2 {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 20px 20px 0px;
+  width: max-content;
+}
+
+.login_signup{
+  background-color: transparent;
+  color: blue;
+  border: 0;
+}
+
+.login-form-container {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  /* border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.field {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.submit-button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.triplist-container{
+  width: fit-content;
+}
+.settings:hover{
+    border-top-left-radius: 10px; /* Rounded top-left corner */
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; /* Rounded bottom-left corner */
+    border-bottom-right-radius: 10px; /* Rounded top-right corner */
+    border: 3px solid lightblue; /* Add a light blue border on hover */
+    transition: border 0.2s ease;
+  
+}
+.settings{
+  margin: 10px;
+  padding: 10px;
+  font-size: large;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+}
+
+.suggesttrips{
+  height: auto;
+  width: auto;
+}
+.modal-90w {
+  width: 80% !important;
+  margin-left: auto;
+  margin-right: auto;
+}

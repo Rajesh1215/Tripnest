@@ -1,0 +1,58 @@
+/* App.css (or your preferred CSS file) */
+
+.search-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;  
+    width: 100%;
+    padding: 20px;
+}
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin-bottom: 15px;
+    border:2px solid black;
+    border-radius: 50px;
+    margin-right: 10px;
+  }
+  
+  .search-field {
+    border:0 !important;
+    border-radius: 50px !important;
+    width: 90% !important;
+  }
+  
+  button {
+    background-color:transparent;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  
+  .search-tags {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tag {
+    background-color: rgb(168, 168, 183);
+    color: white;
+    padding: 1px 5px;
+    border-radius: 5px;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    font-size: smaller;
+  }
+  
+  .tag span {
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  

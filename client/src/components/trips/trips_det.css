@@ -1,0 +1,17 @@
+.main-container{
+    width:100%;
+    height:100vh;
+}
+
+.planner-container{
+    height:60vh;
+    overflow-y: scroll;
+}
+.whole-planner{
+    border-right: 1px solid black;
+
+}
+.placeinplan-del{
+    color: red;
+    margin-left: 20%;
+}
